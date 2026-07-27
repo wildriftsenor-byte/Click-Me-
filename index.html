@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Good Morning</title>
+
+<style>
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:linear-gradient(135deg,#fff0f6,#ffe4ef,#ffffff);
+    font-family:Georgia, serif;
+}
+
+.container{
+    text-align:center;
+    max-width:800px;
+    padding:30px;
+}
+
+img{
+    width:320px;
+    max-width:90%;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    margin-bottom:30px;
+}
+
+.message{
+    font-size:40px;
+    font-weight:bold;
+    line-height:1.6;
+    background:linear-gradient(
+        90deg,
+        #ff1493,
+        #ff69b4,
+        #ffc0cb,
+        #ff69b4,
+        #ff1493
+    );
+    background-size:300% auto;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation:glitter 4s linear infinite;
+}
+
+@keyframes glitter{
+    from{
+        background-position:0% center;
+    }
+    to{
+        background-position:300% center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="Pic for her.jpg" alt="Picture">
+
+    <div class="message">
+        Good morning, Princess Koluloni.<br><br>
+
+        I hope you're feeling a little better today.<br>
+
+        Take care and have a lovely day!
+    </div>
+
+</div>
+
+</body>
+</html>
